@@ -1,0 +1,291 @@
+{
+  "common": {
+    "appName": "Churasumu",
+    "language": "Language",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "logout": "Logout",
+    "profile": "Profile",
+    "choosePlan": "Choose a plan",
+    "days": "days",
+    "online": "Online"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email Address",
+    "password": "Password",
+    "login": "Login",
+    "demo": "Demo Account",
+    "selectUser": "Select User",
+    "welcomeBack": "Please check your email address",
+    "tagline": "Mid- to long-term stay platform in Okinawa",
+    "guestMigration": "Relocation Guest",
+    "guestNomad": "Digital Nomad",
+    "guestTourism": "Tourism Guest",
+    "admin": "Administrator"
+  },
+  "signup": {
+    "title": "Create Account",
+    "tagline": "Create a new stay account",
+    "name": "Full Name",
+    "nationality": "Nationality",
+    "nationalityPlaceholder": "Example: Japan",
+    "purpose": "Purpose",
+    "nomad": "Nomad Work",
+    "createAccount": "Create Account",
+    "haveAccount": "Already have an account?",
+    "backToLogin": "Back to Login",
+    "noAccount": "Don't have an account yet?",
+    "duplicateEmail": "That email address is already in use"
+  },
+  "onboarding": {
+    "title": "Plan Selection",
+    "recommend": "Plan Recommendation",
+    "customize": "Customize Plan",
+    "payment": "Payment",
+    "question1": "How long will you stay?",
+    "question2": "What is your main purpose?",
+    "question3": "What matters most to you?",
+    "shortTerm": "1-2 weeks",
+    "medium": "About 1 month",
+    "longTerm": "2-3 months",
+    "work": "Work / Remote Work",
+    "vacation": "Vacation / Tourism",
+    "relocation": "Considering relocation",
+    "lowBudget": "Price",
+    "midBudget": "Location",
+    "highBudget": "Community",
+    "recommended": "Recommended Plan",
+    "selectProperty": "Select Property",
+    "addOptions": "Add Options",
+    "duration": "Stay Duration",
+    "total": "Total Price",
+    "confirm": "Continue with this plan"
+  },
+  "stay": {
+    "title": "Stay Management",
+    "smartLock": "Smart Lock",
+    "unlock": "Unlock",
+    "lock": "Lock",
+    "troubleReport": "Report Trouble",
+    "cleaning": "Request Cleaning",
+    "extend": "Extend Stay",
+    "facilities": "Facility Info",
+    "emergency": "Emergency Contact",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "reportCategory": "Report Category",
+    "description": "Description",
+    "photos": "Photos",
+    "history": "History",
+    "noActiveBookingTitle": "No active booking yet",
+    "noActiveBookingDescription": "Start by choosing a plan.",
+    "welcome": "Hello, {{name}}",
+    "daysRemaining": "{{count}} days left",
+    "lockStatusLocked": "Locked",
+    "lockStatusUnlocked": "Unlocked",
+    "plan": "Plan",
+    "quickActions": "Quick Actions"
+  },
+  "community": {
+    "title": "Community",
+    "posts": "Posts",
+    "users": "Users",
+    "matching": "Matching",
+    "information": "Local Information",
+    "coupons": "Coupons",
+    "createPost": "Create Post",
+    "postType": "Post Type",
+    "qa": "Q&A",
+    "info": "Info",
+    "review": "Review",
+    "like": "Like",
+    "liked": "Liked",
+    "comments": "Comments",
+    "share": "Share",
+    "filter": "Filter",
+    "sort": "Sort",
+    "allTypes": "Post Type - All",
+    "sortNewest": "Newest",
+    "sortPopular": "Most Liked",
+    "postTitle": "Title",
+    "postTitlePlaceholder": "Enter a title",
+    "postContentPlaceholder": "Write your post",
+    "authorBy": "by {{name}}",
+    "code": "Code",
+    "expires": "Valid until {{date}}",
+    "unknownUser": "User"
+  },
+  "migration": {
+    "title": "Relocation Support",
+    "consultation": "Relocation Consultation",
+    "simulator": "Cost Simulator",
+    "bookmarks": "Saved Properties",
+    "support": "Relocation Support",
+    "monthlyRent": "Monthly Rent",
+    "yearlyTotal": "Yearly Total",
+    "savings": "Savings",
+    "estimateRequired": "Please enter an amount"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "dashboard": "Dashboard",
+    "bookings": "Bookings",
+    "troubles": "Troubles",
+    "revenue": "Revenue",
+    "occupancy": "Occupancy",
+    "revenue_total": "Total Revenue",
+    "properties": "Properties",
+    "status": "Status",
+    "assigned": "Assigned",
+    "action": "Action"
+  },
+  "chat": {
+    "title": "AI Chat",
+    "faq": "FAQ",
+    "type_message": "Type a message...",
+    "send": "Send",
+    "help": "Help",
+    "supportName": "Churasumu Support",
+    "initialMessage": "This is Churasumu Support.\n\nWe can help with common stay questions like Wi-Fi, trash rules, facility operations, and stay extension. You can also tap the buttons below.",
+    "unknownResponse": "Sorry, I couldn't fully understand your question.\n\nCommon topics:\n• Wi-Fi password\n• Trash rules\n• Air conditioner usage\n• Stay extension\n• Emergency contact\n\nPlease try again with one of these keywords or contact the management office.",
+    "quickQuestionWifi": "I want to know the Wi-Fi password",
+    "quickQuestionTrash": "Please tell me the trash rules",
+    "quickQuestionAircon": "How do I use the air conditioner?",
+    "quickQuestionExtend": "How can I extend my stay?",
+    "quickQuestionEmergency": "Please tell me the emergency contact"
+  },
+  "communityData": {
+    "users": {
+      "u1": {
+        "name": "Misaki",
+        "bio": "Thinking about relocating from Tokyo to Okinawa and collecting local living tips.",
+        "summary": {
+          "duration": "Stay: About 1 month",
+          "purpose": "Purpose: Relocation research"
+        }
+      },
+      "u2": {
+        "name": "Kenji Nomad",
+        "bio": "A traveling nomad who loves fast Wi-Fi and comfortable workspaces.",
+        "summary": {
+          "duration": "Stay: About 2 months",
+          "purpose": "Purpose: Remote work"
+        }
+      },
+      "u3": {
+        "name": "Sarah Johnson",
+        "bio": "Digital nomad from the US who loves beach life and local food.",
+        "summary": {
+          "duration": "Stay: About 2 weeks",
+          "purpose": "Purpose: Tourism and workation"
+        }
+      },
+      "admin": {
+        "name": "Taro Tamaki",
+        "bio": "Churasumu operator supporting your stay and local connections.",
+        "summary": {
+          "duration": "Stay: Support staff",
+          "purpose": "Purpose: Operations"
+        }
+      }
+    },
+    "posts": {
+      "cp1": {
+        "title": "Which area in Naha is good for relocation research?",
+        "content": "I want to stay for about a month and get a feel for the city. I'd love recommendations with good access and easy day-to-day living.",
+        "tags": ["Relocation", "Naha", "Living Tips"],
+        "replies": {
+          "r1": "The Kencho-mae and Asato areas are convenient and have many daily-life facilities. A mid-term stay is a great way to explore."
+        }
+      },
+      "cp2": {
+        "title": "Three coworking spaces in Okinawa City that were easy to use",
+        "content": "After using them for a month, these were the easiest places to work from. I picked them based on power access and seating comfort.",
+        "tags": ["Coworking", "Okinawa City", "Nomad"]
+      },
+      "cp3": {
+        "title": "Chatan is amazing for beach lovers!",
+        "content": "Stayed at the Chatan townhouse for 2 weeks. Sunset views and easy access to cafes were perfect.",
+        "tags": ["Chatan", "Beach", "English"]
+      },
+      "cp4": {
+        "title": "Are there good places to stay with children?",
+        "content": "I'm planning a one-month stay with my 5-year-old child. I'd love recommendations for calm and family-friendly places.",
+        "tags": ["Family", "Kids", "Property Advice"]
+      },
+      "cp5": {
+        "title": "A quick guide to Naha trash disposal rules",
+        "content": "Different kinds of trash are collected on different days, so it helps to check early in your stay. The front desk can also provide the sorting guide.",
+        "tags": ["Living Tips", "Trash", "Naha"]
+      }
+    },
+    "localInfos": {
+      "li1": {
+        "name": "Okinawa Soba Kaze no Niwa",
+        "description": "A popular Okinawa soba spot with locals. Lunchtime gets busy, but the broth is excellent.",
+        "address": "2-1-4 Kumoji, Naha",
+        "tags": ["Okinawa Soba", "Lunch", "Local Favorite"]
+      },
+      "li2": {
+        "name": "CoWork OKINAWA",
+        "description": "A coworking space with fast Wi-Fi and quiet booths. Monthly plans make it great for longer stays.",
+        "address": "3-15-2 Makishi, Naha",
+        "tags": ["Coworking", "Good for Focus", "Monthly Plan"]
+      },
+      "li3": {
+        "name": "Weekend Sunset Market",
+        "description": "A weekend event with local food and crafts. Great for enjoying Okinawa's relaxed atmosphere.",
+        "address": "Bayside Plaza, Naha",
+        "tags": ["Weekend", "Market", "Local"]
+      },
+      "li4": {
+        "name": "American Village Diner",
+        "description": "An easy diner stop in Chatan with hearty brunch options.",
+        "address": "9-21 Mihama, Chatan",
+        "tags": ["American", "Brunch", "Chatan"]
+      },
+      "li5": {
+        "name": "Base Camp Chatan",
+        "description": "A coworking space where you can work with an ocean view. Easy to stop by before or after surfing.",
+        "address": "2-5 Sunabe, Chatan",
+        "tags": ["Coworking", "Near the Sea", "Workation"]
+      },
+      "li6": {
+        "name": "Koza Music Festival",
+        "description": "A live music event held in Okinawa City. Great to enjoy together with an evening walk.",
+        "address": "Central Okinawa City Area",
+        "tags": ["Music", "Koza", "Event"]
+      }
+    },
+    "coupons": {
+      "c1": {
+        "shopName": "Okinawa Soba Kaze no Niwa",
+        "description": "One free drink",
+        "discount": "Value of JPY 500"
+      },
+      "c2": {
+        "shopName": "CoWork OKINAWA",
+        "description": "10% off day pass",
+        "discount": "10% OFF"
+      },
+      "c3": {
+        "shopName": "American Village Diner",
+        "description": "5% off your bill",
+        "discount": "5% OFF"
+      },
+      "c4": {
+        "shopName": "Base Camp Chatan",
+        "description": "JPY 1,500 off first visit",
+        "discount": "JPY 1,500 OFF"
+      }
+    }
+  }
+}

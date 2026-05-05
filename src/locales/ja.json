@@ -1,0 +1,291 @@
+{
+  "common": {
+    "appName": "Churasumu",
+    "language": "言語",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "back": "戻る",
+    "next": "次へ",
+    "submit": "送信",
+    "logout": "ログアウト",
+    "profile": "プロフィール",
+    "choosePlan": "プランを選ぶ",
+    "days": "日",
+    "online": "オンライン"
+  },
+  "login": {
+    "title": "ログイン",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "login": "ログイン",
+    "demo": "デモアカウント",
+    "selectUser": "ユーザーを選ぶ",
+    "welcomeBack": "メールアドレスを確認してください",
+    "tagline": "沖縄の中長期滞在プラットフォーム",
+    "guestMigration": "移住検討ゲスト",
+    "guestNomad": "ノマドワーカー",
+    "guestTourism": "観光ゲスト",
+    "admin": "管理者"
+  },
+  "signup": {
+    "title": "アカウント作成",
+    "tagline": "新しい滞在アカウントを作成します",
+    "name": "お名前",
+    "nationality": "国籍",
+    "nationalityPlaceholder": "例: 日本",
+    "purpose": "利用目的",
+    "nomad": "ノマドワーク",
+    "createAccount": "アカウントを作成",
+    "haveAccount": "すでにアカウントをお持ちですか？",
+    "backToLogin": "ログインへ戻る",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "duplicateEmail": "そのメールアドレスはすでに使われています"
+  },
+  "onboarding": {
+    "title": "プラン選択",
+    "recommend": "プランレコメンド",
+    "customize": "プランカスタマイズ",
+    "payment": "支払い",
+    "question1": "滞在期間はどれくらいですか？",
+    "question2": "主な滞在目的を教えてください",
+    "question3": "何を重視しますか？",
+    "shortTerm": "1〜2週間",
+    "medium": "1か月前後",
+    "longTerm": "2〜3か月",
+    "work": "仕事・リモートワーク",
+    "vacation": "観光・バケーション",
+    "relocation": "移住検討",
+    "lowBudget": "価格重視",
+    "midBudget": "立地重視",
+    "highBudget": "コミュニティ重視",
+    "recommended": "おすすめプラン",
+    "selectProperty": "物件を選ぶ",
+    "addOptions": "オプションを追加",
+    "duration": "滞在期間",
+    "total": "合計金額",
+    "confirm": "このプランで進む"
+  },
+  "stay": {
+    "title": "滞在管理",
+    "smartLock": "スマートロック",
+    "unlock": "解錠",
+    "lock": "施錠",
+    "troubleReport": "トラブル報告",
+    "cleaning": "清掃リクエスト",
+    "extend": "滞在延長",
+    "facilities": "施設情報",
+    "emergency": "緊急連絡",
+    "checkIn": "チェックイン",
+    "checkOut": "チェックアウト",
+    "reportCategory": "報告カテゴリ",
+    "description": "詳細",
+    "photos": "写真",
+    "history": "履歴",
+    "noActiveBookingTitle": "現在の予約がありません",
+    "noActiveBookingDescription": "プラン選択から予約を始めましょう。",
+    "welcome": "こんにちは、{{name}}さん",
+    "daysRemaining": "残り{{count}}日",
+    "lockStatusLocked": "施錠中",
+    "lockStatusUnlocked": "解錠中",
+    "plan": "プラン",
+    "quickActions": "クイックアクション"
+  },
+  "community": {
+    "title": "コミュニティ",
+    "posts": "投稿",
+    "users": "ユーザー",
+    "matching": "マッチング",
+    "information": "地域情報",
+    "coupons": "クーポン",
+    "createPost": "投稿を作成",
+    "postType": "投稿タイプ",
+    "qa": "Q&A",
+    "info": "情報",
+    "review": "レビュー",
+    "like": "いいね",
+    "liked": "いいね済み",
+    "comments": "コメント",
+    "share": "シェア",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "allTypes": "投稿タイプ - すべて",
+    "sortNewest": "新着順",
+    "sortPopular": "人気順",
+    "postTitle": "タイトル",
+    "postTitlePlaceholder": "投稿タイトルを入力",
+    "postContentPlaceholder": "内容を入力",
+    "authorBy": "{{name}} さん",
+    "code": "コード",
+    "expires": "{{date}} まで",
+    "unknownUser": "ユーザー"
+  },
+  "migration": {
+    "title": "移住サポート",
+    "consultation": "移住相談",
+    "simulator": "費用シミュレーター",
+    "bookmarks": "お気に入り物件",
+    "support": "移住支援",
+    "monthlyRent": "月額家賃",
+    "yearlyTotal": "年間合計",
+    "savings": "節約額",
+    "estimateRequired": "金額を入力してください"
+  },
+  "admin": {
+    "title": "管理ダッシュボード",
+    "dashboard": "ダッシュボード",
+    "bookings": "予約管理",
+    "troubles": "トラブル管理",
+    "revenue": "売上",
+    "occupancy": "稼働率",
+    "revenue_total": "総売上",
+    "properties": "物件数",
+    "status": "ステータス",
+    "assigned": "担当",
+    "action": "操作"
+  },
+  "chat": {
+    "title": "AIチャット",
+    "faq": "よくある質問",
+    "type_message": "メッセージを入力...",
+    "send": "送信",
+    "help": "ヘルプ",
+    "supportName": "Churasumu サポート",
+    "initialMessage": "Churasumuサポートです。\n\nWi-Fi、ごみ出し、設備操作、滞在延長など、滞在中によくある質問にお答えします。下のボタンからもすぐに聞けます。",
+    "unknownResponse": "申し訳ありません。ご質問の内容を正確に把握できませんでした。\n\nよくある質問:\n• Wi-Fiパスワード\n• ごみ出し\n• エアコン操作\n• 滞在延長\n• 緊急連絡先\n\n上のキーワードでもう一度お試しいただくか、管理室までご連絡ください。",
+    "quickQuestionWifi": "Wi-Fiのパスワードを知りたい",
+    "quickQuestionTrash": "ごみ出しルールを教えて",
+    "quickQuestionAircon": "エアコンの操作方法は？",
+    "quickQuestionExtend": "滞在延長の方法を知りたい",
+    "quickQuestionEmergency": "緊急連絡先を教えて"
+  },
+  "communityData": {
+    "users": {
+      "u1": {
+        "name": "美咲",
+        "bio": "東京から沖縄移住を検討中。地域コミュニティや生活情報を集めています。",
+        "summary": {
+          "duration": "滞在期間: 1か月予定",
+          "purpose": "目的: 移住相談"
+        }
+      },
+      "u2": {
+        "name": "Kenji Nomad",
+        "bio": "各地を旅しながら働くノマド。Wi-Fiが速くて作業しやすい場所が好きです。",
+        "summary": {
+          "duration": "滞在期間: 2か月予定",
+          "purpose": "目的: リモートワーク"
+        }
+      },
+      "u3": {
+        "name": "Sarah Johnson",
+        "bio": "アメリカ出身のデジタルノマド。海辺の暮らしとローカルフードが大好きです。",
+        "summary": {
+          "duration": "滞在期間: 2週間予定",
+          "purpose": "目的: 観光とワーケーション"
+        }
+      },
+      "admin": {
+        "name": "玉城 太郎",
+        "bio": "Churasumu運営。滞在中の困りごとや地域とのつながりをサポートします。",
+        "summary": {
+          "duration": "滞在期間: サポート担当",
+          "purpose": "目的: 管理運営"
+        }
+      }
+    },
+    "posts": {
+      "cp1": {
+        "title": "那覇で移住相談しやすいエリアはどこですか？",
+        "content": "1か月ほど滞在しながら街の雰囲気を見たいです。交通の便や生活しやすさの観点でおすすめがあれば知りたいです。",
+        "tags": ["移住相談", "那覇", "生活情報"],
+        "replies": {
+          "r1": "県庁前や安里周辺は暮らしやすく、生活施設もまとまっています。まずは中期滞在で様子を見るのがおすすめです。"
+        }
+      },
+      "cp2": {
+        "title": "沖縄市で使いやすいコワーキング3選",
+        "content": "1か月使ってみて作業しやすかった場所をまとめました。電源や席の使いやすさ重視で選んでいます。",
+        "tags": ["コワーキング", "沖縄市", "ノマド"]
+      },
+      "cp3": {
+        "title": "Chatan is amazing for beach lovers!",
+        "content": "Stayed at the Chatan townhouse for 2 weeks. Sunset views and easy access to cafes were perfect.",
+        "tags": ["北谷", "ビーチ", "English"]
+      },
+      "cp4": {
+        "title": "子連れで滞在しやすい物件はありますか？",
+        "content": "5歳の子どもと一緒に1か月ほど滞在予定です。静かな環境で過ごしやすい物件があれば知りたいです。",
+        "tags": ["ファミリー", "子連れ", "物件相談"]
+      },
+      "cp5": {
+        "title": "那覇のごみ出しルールまとめ",
+        "content": "曜日ごとに出せる種類が違うので、滞在初日に確認しておくと安心です。分別表は受付でも案内してもらえます。",
+        "tags": ["生活情報", "ごみ出し", "那覇"]
+      }
+    },
+    "localInfos": {
+      "li1": {
+        "name": "沖縄そば 風の庭",
+        "description": "地元の人にも人気の沖縄そば店。ランチタイムは混みますが、だしの香りが良くおすすめです。",
+        "address": "那覇市久茂地 2-1-4",
+        "tags": ["沖縄そば", "ランチ", "地元人気"]
+      },
+      "li2": {
+        "name": "CoWork OKINAWA",
+        "description": "高速Wi-Fiと静かなブースが使えるコワーキング。月額プランもあり、長期滞在に向いています。",
+        "address": "那覇市牧志 3-15-2",
+        "tags": ["コワーキング", "作業向き", "月額プラン"]
+      },
+      "li3": {
+        "name": "週末サンセットマーケット",
+        "description": "地元のフードとクラフトが集まる週末イベント。気軽に沖縄らしい雰囲気を楽しめます。",
+        "address": "那覇市港町 ベイサイド広場",
+        "tags": ["週末", "マーケット", "ローカル"]
+      },
+      "li4": {
+        "name": "American Village Diner",
+        "description": "北谷エリアで立ち寄りやすいダイナー。ボリュームのあるブランチが人気です。",
+        "address": "北谷町美浜 9-21",
+        "tags": ["アメリカン", "ブランチ", "北谷"]
+      },
+      "li5": {
+        "name": "Base Camp Chatan",
+        "description": "海を見ながら作業できるコワーキング。サーフィン前後にも立ち寄りやすいです。",
+        "address": "北谷町砂辺 2-5",
+        "tags": ["コワーキング", "海近", "ワーケーション"]
+      },
+      "li6": {
+        "name": "コザ音楽祭",
+        "description": "沖縄市で開催されるライブイベント。夜の街歩きと一緒に楽しめます。",
+        "address": "沖縄市中央 一帯",
+        "tags": ["音楽", "コザ", "イベント"]
+      }
+    },
+    "coupons": {
+      "c1": {
+        "shopName": "沖縄そば 風の庭",
+        "description": "ドリンク1杯無料",
+        "discount": "500円相当"
+      },
+      "c2": {
+        "shopName": "CoWork OKINAWA",
+        "description": "デイパス10%OFF",
+        "discount": "10%OFF"
+      },
+      "c3": {
+        "shopName": "American Village Diner",
+        "description": "お会計から5%OFF",
+        "discount": "5%OFF"
+      },
+      "c4": {
+        "shopName": "Base Camp Chatan",
+        "description": "初回利用 1,500円引き",
+        "discount": "1,500円引き"
+      }
+    }
+  }
+}

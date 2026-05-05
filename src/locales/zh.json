@@ -1,0 +1,291 @@
+{
+  "common": {
+    "appName": "Churasumu",
+    "language": "语言",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "back": "返回",
+    "next": "下一步",
+    "submit": "提交",
+    "logout": "退出登录",
+    "profile": "个人资料",
+    "choosePlan": "选择方案",
+    "days": "天",
+    "online": "在线"
+  },
+  "login": {
+    "title": "登录",
+    "email": "邮箱地址",
+    "password": "密码",
+    "login": "登录",
+    "demo": "演示账号",
+    "selectUser": "选择用户",
+    "welcomeBack": "请确认邮箱地址",
+    "tagline": "冲绳中长期住宿平台",
+    "guestMigration": "移居咨询用户",
+    "guestNomad": "数字游民",
+    "guestTourism": "旅游用户",
+    "admin": "管理员"
+  },
+  "signup": {
+    "title": "创建账号",
+    "tagline": "创建新的入住账号",
+    "name": "姓名",
+    "nationality": "国籍",
+    "nationalityPlaceholder": "例如：日本",
+    "purpose": "使用目的",
+    "nomad": "数字游民工作",
+    "createAccount": "创建账号",
+    "haveAccount": "已经有账号了吗？",
+    "backToLogin": "返回登录",
+    "noAccount": "还没有账号吗？",
+    "duplicateEmail": "该邮箱地址已被使用"
+  },
+  "onboarding": {
+    "title": "方案选择",
+    "recommend": "推荐方案",
+    "customize": "自定义方案",
+    "payment": "支付",
+    "question1": "您计划入住多久？",
+    "question2": "您的主要目的是什么？",
+    "question3": "您最重视什么？",
+    "shortTerm": "1到2周",
+    "medium": "约1个月",
+    "longTerm": "2到3个月",
+    "work": "工作 / 远程办公",
+    "vacation": "旅游 / 度假",
+    "relocation": "考虑移居",
+    "lowBudget": "价格",
+    "midBudget": "位置",
+    "highBudget": "社区",
+    "recommended": "推荐方案",
+    "selectProperty": "选择房源",
+    "addOptions": "添加选项",
+    "duration": "入住时长",
+    "total": "总价",
+    "confirm": "按此方案继续"
+  },
+  "stay": {
+    "title": "入住管理",
+    "smartLock": "智能门锁",
+    "unlock": "开锁",
+    "lock": "上锁",
+    "troubleReport": "问题反馈",
+    "cleaning": "清洁申请",
+    "extend": "延长入住",
+    "facilities": "设施信息",
+    "emergency": "紧急联系",
+    "checkIn": "入住",
+    "checkOut": "退房",
+    "reportCategory": "反馈类别",
+    "description": "详情",
+    "photos": "照片",
+    "history": "记录",
+    "noActiveBookingTitle": "目前没有有效预订",
+    "noActiveBookingDescription": "请先从选择方案开始。",
+    "welcome": "你好，{{name}}",
+    "daysRemaining": "剩余{{count}}天",
+    "lockStatusLocked": "已上锁",
+    "lockStatusUnlocked": "已开锁",
+    "plan": "方案",
+    "quickActions": "快捷操作"
+  },
+  "community": {
+    "title": "社区",
+    "posts": "帖子",
+    "users": "用户",
+    "matching": "匹配",
+    "information": "本地信息",
+    "coupons": "优惠券",
+    "createPost": "发布帖子",
+    "postType": "帖子类型",
+    "qa": "问答",
+    "info": "信息",
+    "review": "评价",
+    "like": "点赞",
+    "liked": "已点赞",
+    "comments": "评论",
+    "share": "分享",
+    "filter": "筛选",
+    "sort": "排序",
+    "allTypes": "帖子类型 - 全部",
+    "sortNewest": "最新",
+    "sortPopular": "最受欢迎",
+    "postTitle": "标题",
+    "postTitlePlaceholder": "请输入标题",
+    "postContentPlaceholder": "请输入内容",
+    "authorBy": "作者：{{name}}",
+    "code": "代码",
+    "expires": "有效期至 {{date}}",
+    "unknownUser": "用户"
+  },
+  "migration": {
+    "title": "移居支持",
+    "consultation": "移居咨询",
+    "simulator": "费用模拟器",
+    "bookmarks": "收藏房源",
+    "support": "移居协助",
+    "monthlyRent": "月租",
+    "yearlyTotal": "全年总计",
+    "savings": "节省金额",
+    "estimateRequired": "请输入金额"
+  },
+  "admin": {
+    "title": "管理面板",
+    "dashboard": "仪表板",
+    "bookings": "预订",
+    "troubles": "问题管理",
+    "revenue": "收入",
+    "occupancy": "入住率",
+    "revenue_total": "总收入",
+    "properties": "房源数",
+    "status": "状态",
+    "assigned": "负责人",
+    "action": "操作"
+  },
+  "chat": {
+    "title": "AI聊天",
+    "faq": "常见问题",
+    "type_message": "请输入消息...",
+    "send": "发送",
+    "help": "帮助",
+    "supportName": "Churasumu 客服",
+    "initialMessage": "这里是 Churasumu 客服。\n\n我们可以回答 Wi-Fi、垃圾处理、设备使用、延长入住等常见问题。也可以直接点击下方按钮提问。",
+    "unknownResponse": "抱歉，我还不能准确理解这个问题。\n\n常见主题：\n• Wi-Fi 密码\n• 垃圾处理规则\n• 空调使用方法\n• 延长入住\n• 紧急联系方式\n\n请尝试使用这些关键词再次提问，或联系管理办公室。",
+    "quickQuestionWifi": "我想知道 Wi-Fi 密码",
+    "quickQuestionTrash": "请告诉我垃圾处理规则",
+    "quickQuestionAircon": "空调怎么使用？",
+    "quickQuestionExtend": "如何延长入住？",
+    "quickQuestionEmergency": "请告诉我紧急联系方式"
+  },
+  "communityData": {
+    "users": {
+      "u1": {
+        "name": "美咲",
+        "bio": "正在考虑从东京移居冲绳，正在收集生活与社区信息。",
+        "summary": {
+          "duration": "入住时间：约1个月",
+          "purpose": "目的：移居考察"
+        }
+      },
+      "u2": {
+        "name": "Kenji Nomad",
+        "bio": "边旅行边工作的数字游民，喜欢网速快、适合专注工作的空间。",
+        "summary": {
+          "duration": "入住时间：约2个月",
+          "purpose": "目的：远程工作"
+        }
+      },
+      "u3": {
+        "name": "Sarah Johnson",
+        "bio": "来自美国的数字游民，喜欢海边生活和本地美食。",
+        "summary": {
+          "duration": "入住时间：约2周",
+          "purpose": "目的：旅游与工作度假"
+        }
+      },
+      "admin": {
+        "name": "玉城太郎",
+        "bio": "Churasumu 运营人员，协助大家处理入住与本地连接相关问题。",
+        "summary": {
+          "duration": "入住时间：支持人员",
+          "purpose": "目的：运营管理"
+        }
+      }
+    },
+    "posts": {
+      "cp1": {
+        "title": "在那霸，哪里适合做移居考察？",
+        "content": "我想边住一个月边感受城市氛围。如果有交通方便、生活便利的推荐区域，请告诉我。",
+        "tags": ["移居", "那霸", "生活信息"],
+        "replies": {
+          "r1": "县厅前和安里一带生活方便、设施集中。建议先中期入住体验一下。"
+        }
+      },
+      "cp2": {
+        "title": "冲绳市里好用的 3 家共享办公空间",
+        "content": "用了一个月后，我整理了几个适合工作的地点，主要看电源和座位舒适度。",
+        "tags": ["共享办公", "冲绳市", "数字游民"]
+      },
+      "cp3": {
+        "title": "Chatan is amazing for beach lovers!",
+        "content": "Stayed at the Chatan townhouse for 2 weeks. Sunset views and easy access to cafes were perfect.",
+        "tags": ["北谷", "海滩", "English"]
+      },
+      "cp4": {
+        "title": "有适合带孩子入住的房源吗？",
+        "content": "我计划带 5 岁孩子一起住一个月左右。如果有安静、适合家庭的房源，请推荐。",
+        "tags": ["家庭", "亲子", "房源咨询"]
+      },
+      "cp5": {
+        "title": "那霸垃圾投放规则整理",
+        "content": "不同垃圾的投放日不同，入住初期先确认会更安心。前台也可以提供分类说明。",
+        "tags": ["生活信息", "垃圾", "那霸"]
+      }
+    },
+    "localInfos": {
+      "li1": {
+        "name": "冲绳荞麦面 风之庭",
+        "description": "很受当地人欢迎的冲绳荞麦面店。午餐时间比较忙，但汤头很棒。",
+        "address": "那霸市久茂地 2-1-4",
+        "tags": ["冲绳荞麦面", "午餐", "本地人推荐"]
+      },
+      "li2": {
+        "name": "CoWork OKINAWA",
+        "description": "提供高速 Wi‑Fi 和安静工作间的共享办公空间。也有月费方案，适合长期入住。",
+        "address": "那霸市牧志 3-15-2",
+        "tags": ["共享办公", "适合专注", "月费"]
+      },
+      "li3": {
+        "name": "周末日落市集",
+        "description": "汇集当地美食和手作的周末活动，能轻松体验冲绳的生活气氛。",
+        "address": "那霸市港町 海湾广场",
+        "tags": ["周末", "市集", "本地"]
+      },
+      "li4": {
+        "name": "American Village Diner",
+        "description": "北谷地区方便停留的餐厅，丰盛的早午餐很受欢迎。",
+        "address": "北谷町美滨 9-21",
+        "tags": ["美式", "早午餐", "北谷"]
+      },
+      "li5": {
+        "name": "Base Camp Chatan",
+        "description": "可以一边看海一边工作的共享办公空间，也很适合冲浪前后顺路使用。",
+        "address": "北谷町砂边 2-5",
+        "tags": ["共享办公", "靠海", "工作度假"]
+      },
+      "li6": {
+        "name": "Koza 音乐节",
+        "description": "在冲绳市举办的现场音乐活动，适合搭配夜晚散步一起体验。",
+        "address": "冲绳市中央一带",
+        "tags": ["音乐", "Koza", "活动"]
+      }
+    },
+    "coupons": {
+      "c1": {
+        "shopName": "冲绳荞麦面 风之庭",
+        "description": "免费赠送 1 杯饮品",
+        "discount": "约 500 日元"
+      },
+      "c2": {
+        "shopName": "CoWork OKINAWA",
+        "description": "日票 9 折",
+        "discount": "10% OFF"
+      },
+      "c3": {
+        "shopName": "American Village Diner",
+        "description": "结账时 95 折",
+        "discount": "5% OFF"
+      },
+      "c4": {
+        "shopName": "Base Camp Chatan",
+        "description": "首次使用减 1,500 日元",
+        "discount": "减 1,500 日元"
+      }
+    }
+  }
+}
