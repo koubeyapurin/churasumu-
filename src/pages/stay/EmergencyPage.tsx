@@ -17,7 +17,7 @@ export default function EmergencyPage() {
 
       <div className={styles.contactList}>
         {emergencyContacts.map(c => (
-          <a key={c.type} href={`tel:${c.number}`} className={styles.contactCard} style={{ borderColor: c.color }}>
+          <button key={c.type} className={styles.contactCard} style={{ borderColor: c.color }}>
             <span className={styles.contactIcon}>{c.icon}</span>
             <div className={styles.contactInfo}>
               <span className={styles.contactLabel}>{c.label}</span>
@@ -25,7 +25,7 @@ export default function EmergencyPage() {
               {c.note && <span className={styles.contactNote}>{c.note}</span>}
             </div>
             <span className={styles.callIcon}>📞</span>
-          </a>
+          </button>
         ))}
       </div>
 

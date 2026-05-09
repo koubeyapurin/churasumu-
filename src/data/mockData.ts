@@ -163,20 +163,6 @@ export const mockOptions: Option[] = [
     icon: '📶',
   },
   {
-    id: 'opt-english',
-    name: '英語サポート',
-    description: '英語での生活サポートや問い合わせ対応を利用できます。',
-    price: 5000,
-    icon: '🌐',
-  },
-  {
-    id: 'opt-migration',
-    name: '移住相談パック',
-    description: '移住相談2回分と、エリア・学校・生活費に関する個別案内が含まれます。',
-    price: 8000,
-    icon: '🏡',
-  },
-  {
     id: 'opt-community',
     name: 'コミュニティ参加',
     description: '交流イベントやワーケーション向けミートアップに参加できます。',
@@ -449,9 +435,5 @@ export const faqData = [
   {
     keywords: ['スマートロック', '鍵', '解錠', '施錠'],
     answer: 'スマートロックは滞在管理トップの「解錠/施錠」ボタンから操作できます。ドアの近くでご利用ください。',
-  },
-  {
-    keywords: ['英語', 'english', 'support'],
-    answer: '英語サポートオプションを追加している場合は、英語でのチャット対応も可能です。必要に応じてフロントへご連絡ください。',
   },
 ];
