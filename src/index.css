@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  height: -webkit-fill-available;
+}
+
 :root {
   --color-primary: #0ea5e9;
   --color-primary-dark: #0284c7;
@@ -30,6 +36,7 @@ body {
   color: var(--color-text);
   line-height: 1.6;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 a {
@@ -139,11 +146,13 @@ input, textarea, select {
   padding: 10px 14px;
   border: 1.5px solid var(--color-border);
   border-radius: var(--radius-sm);
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--color-text);
   background: white;
   transition: border-color 0.15s;
   outline: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .form-group input:focus,

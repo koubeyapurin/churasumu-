@@ -1,5 +1,6 @@
 .wrapper {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
@@ -12,6 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -59,7 +61,7 @@
 
 .main {
   flex: 1;
-  padding-bottom: 60px;
+  padding-bottom: calc(60px + env(safe-area-inset-bottom));
 }
 
 .bottomNav {
@@ -72,6 +74,7 @@
   display: flex;
   z-index: 100;
   box-shadow: 0 -2px 8px rgba(0,0,0,0.06);
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .navItem {

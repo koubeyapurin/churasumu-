@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   base: '/churasumu-/',
-  build: { outDir: 'docs' },
+  build: {
+    outDir: 'docs',
+    target: ['es2020', 'safari14', 'ios14'],
+  },
   plugins: [react()],
   resolve: {
     alias: {
